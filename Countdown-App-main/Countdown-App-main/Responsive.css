@@ -1,0 +1,88 @@
+@media screen and (max-width : 999px){
+    .container{
+        width: 700px;
+        height: 450px;
+    }   
+
+    .text .big_number{
+        font-size: 2rem;
+    }
+
+    .askforcountdowndate{
+        margin-bottom: 2rem;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    input{
+        width: 200px;
+        text-align: center;
+        font-size: 1.4rem;
+    }
+}
+
+@media screen and (max-width : 720px){
+    .container{
+        width: 500px;
+        height: 450px;
+    }   
+
+    .InputString{
+        width: 400px;
+        height: 40px;
+        font-size: 1rem;
+    }
+
+    .text .big_number{
+        margin: 0 2rem;
+        font-size: 2rem;
+    }
+    .askforcountdowndate{
+        margin-bottom: 2rem;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    .heading h2{
+        font-size: 2rem;
+        margin-top: 1rem;
+        transform:  translateY(-30px);
+        color: rgb(0, 0, 0);
+        position: relative;
+    }
+}
+
+@media screen and (max-width : 560px){
+
+    .heading h2{
+        font-size: 2rem;
+        margin-top: 1rem;
+        transform:  translateY(-30px);
+        color: rgb(0, 0, 0);
+        position: relative;
+    }
+
+    .container{
+        width: 300px;
+        height: 450px;
+    }   
+
+    .text .big_number{
+        margin: 0 1rem;
+        font-size: 1rem;
+    }
+    .text .aligntext{
+        text-align: center;
+        font-size: .4rem;
+        color: rgb(0, 0, 0);
+    }
+    .askforcountdowndate{
+        margin-bottom: 2rem;
+        font-size: 1rem;
+        text-align: center;
+    }
+    .InputString{
+        width: 200px;
+        height: 30px;
+        font-size: .7rem;
+    }
+}

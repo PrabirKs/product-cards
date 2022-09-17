@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Countdown Timer App</title>
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/Responsive.css">
+</head>
+
+<body>
+    <div class="askforcountdowndate">
+        <label for="CountdownFor">Enter Date for which You want to start Countdown For :- </label><br>
+        <input type="Date" id="DateForCountdown">
+    </div>
+    <div class="inputString">
+        <input type="text" class="InputString" placeholder="For you have Started the Countdown" id="Input">
+        </div>
+        <div class="btn">
+            <button onclick="btn()">Enter</button>
+        </div>
+    <div class="container">
+        <div class="heading">
+            <h2 id="Heading">New Year Eve</h2>
+        </div>
+
+        <div class="countdown_container move_left">
+            <div class="days text">
+                <p class="big_number" id="days">0</p>
+                <p class="aligntext">days</p>
+            </div>
+            <div class="hours text">
+                <p class="big_number" id="hours">0</p>
+                <p class="aligntext">hours</p>
+            </div>
+            <div class="min text">
+                <p class="big_number" id="min">0</p>
+                <p class="aligntext">minutes</p>
+            </div>
+            <div class="sec text">
+                <p class="big_number" id="sec">0</p>
+                <p class="aligntext">seconds</p>
+            </div>
+        </div>
+    </div>
+    <script src="/app.js"></script>
+</body>
+
+</html>
